@@ -13,7 +13,7 @@ import lombok.Data;
 public class StatusType {
 
 	@Id
-	private int id;
+	private Integer id;
 	private String name;
 	private Boolean maintenanceRequest;
 	private Boolean workOrder;
